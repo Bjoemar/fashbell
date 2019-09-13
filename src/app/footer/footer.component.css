@@ -1,0 +1,60 @@
+footer {
+	/*margin-top: 20px;*/
+	padding-top: 20px;
+	color: white;
+}
+
+.footer-logo img {
+	width: 100%;
+	
+	/*background-color: red;*/
+}
+
+
+.subscribe_footer {
+	width: 100%;
+	line-height: 0.70s;
+	/*background-color: blue;*/
+	
+}
+
+footer h5 {
+	font-size: 16px;
+	font-weight: 600;
+	color: #fff;
+	/*float: left;*/
+}
+
+.subscribe_footer p {
+	color: #aaa;
+	font-size: 13px;
+}
+.footer-payment-icons {
+	display: inline-block;
+	/*width: 10%;*/
+	/*margin-left: 20px;*/
+}
+
+.footer-payment-icons img {
+	/*width: 60px;*/
+	height: 50px;
+	/*height: 50px;*/
+	/*object-fit: cover;*/
+	/*background-color: white;*/
+}
+
+.web-footer-links {
+	margin-bottom: 10px!important;
+	font-size: 12px;
+}
+
+.footer-link-col {
+	height: 250px;
+}
+
+.footer-copyright a {
+	margin-right: 5px;
+	margin-left: 5px;
+	font-size: 12px;
+	font-weight: 600;
+}

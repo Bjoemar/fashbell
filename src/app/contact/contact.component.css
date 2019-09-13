@@ -1,0 +1,93 @@
+
+nav a {
+	color: #ccc;
+	font-size: 12px;
+}
+
+.breadcrumb:before {
+    color: black;
+}
+
+.breadcrumb, .breadcrumb:last-child {
+   color: black;
+}
+
+.container h2 {
+	font-weight: 300;
+	margin: 0;
+}
+
+
+.contact-form {
+	padding-top: 50px;
+	/*margin-bottom: 40px;*/
+	/*margin-top: 40px;*/
+}
+
+.extra_holder {
+	position: relative;
+	width: 100%;
+	height:850px;
+	background-image: linear-gradient(to bottom, rgba(255,255,255, 0.9) 60%,rgba(255,255,255,1) 100%), url('../../assets/images/contact_bg.jpeg');
+	background-position: center;
+	background-size: cover;
+}
+
+.contact-card {
+	padding: 25px;
+	position: absolute;
+	/*height: 100px;*/
+	width: 800px;
+	top: 40%;
+	left: 16%;
+	background-color: white;
+	z-index: 5;
+	box-shadow: 10px 10px 50px #aaa;
+	border-top-right-radius: 30px;
+	border-bottom-left-radius: 30px;
+
+}
+
+.contact-card input,textarea {
+	/*color: white;*/
+}
+
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+	.contact-card {
+		padding: 25px;
+		position: absolute;
+		/*height: 100px;*/
+		/*width: 100%;*/
+		top: 40%;
+		left: 16%;
+		background-color: white;
+		z-index: 5;
+		box-shadow: 10px 10px 50px #aaa;
+		border-top-right-radius: 30px;
+		border-bottom-left-radius: 30px;
+
+	}
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+	.contact-card {
+		margin-bottom: 10px;
+		padding: 20px;
+		position: static;
+		/*height: 100px;*/
+		width: 100%;
+	/*	top: 45%;
+		left: 2%;*/
+		background-color: white;
+		z-index: 5;
+		box-shadow: 10px 10px 50px #aaa;
+		border-top-right-radius: 30px;
+		border-bottom-left-radius: 30px;
+
+	}
+} 

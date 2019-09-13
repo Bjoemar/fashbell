@@ -1,0 +1,32 @@
+nav a {
+	color: #222!important;
+}
+
+/*.site-nav li {
+	display: inline-block;
+	margin: 10px;
+	padding-left: 5%;
+	text-align: center;
+}
+*/
+
+.site-nav li a {
+	text-decoration: none;
+	color: black;
+	font-weight: 300;
+}
+
+
+
+
+.brand-logo img {
+	object-fit: contain;
+	width: 145px;
+	margin-top: 5px;
+	/*width: 100%;*/
+}
+
+/*nav ul li.active {
+  border-top: -5px solid rgba(234,37,45,1)
+}
+*/

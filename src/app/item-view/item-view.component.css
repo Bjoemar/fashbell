@@ -1,0 +1,70 @@
+#item_model_view h5 {
+	font-weight: 600;
+}
+
+.modal_content {
+	padding-top: 10px;
+	padding-bottom: 20px;
+	border-bottom: 1px solid black;
+}
+
+.modal_content label{
+	font-size: 1em;
+}
+
+.color-box {
+	height: 20px;
+	width: 50px;
+	display: inline-block;
+	box-shadow: 2px 2px 1px black;
+	margin: 5px;
+}
+
+
+.collapsible p strong {
+	font-size: 15px;
+	font-weight: 600;
+}
+
+.active_thumb {
+	border:3px solid black;
+}
+
+.img_thumb {
+	height: 100px;
+	width: 100%;
+	object-fit: cover;
+}
+
+.inner_img_thumb_view {
+	height: 550px;
+	object-fit: cover;
+	width: 100%;
+	/*border:1px solid black;*/
+}
+
+.modal {width: 70%!important; max-height: 85%!important;}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+	.img_thumb {
+		/*height: 100px;*/
+		width: 100%;
+		object-fit: cover;
+	}
+
+	.view_modal_thumb {
+		/*overflow-y: scroll;*/
+		/*height: 100px;*/
+		width: 100%;
+
+	}
+
+	.img_thumb_view {
+		display: none;
+	}
+
+
+	.modal {width: 90%!important; max-height: 85%!important;}
+} 

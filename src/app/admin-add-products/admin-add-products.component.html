@@ -1,0 +1,381 @@
+
+<div class="manageProduct_head">
+	Manage Product
+</div>
+
+<div class="content_holder">
+	<!-- <h5>Manage Product</h5> -->
+	<div class="form-container">
+		<div class="form-header">
+			
+			<h6>New Product Item</h6>
+			<label>Adding new product for the store.</label>
+		</div>
+
+		<div class="row">
+
+			<!-- Left Content -->
+				<div class="col s12 l6 m6">
+					<div class="section">
+					 	<div class="input-field">
+					    	<input id="productName" type="text" [(ngModel)]="productName" class="validate" placeholder="Fashbelle T-shirt">
+					    	<label for="productName">Item Name</label>
+					  	</div>
+					</div>
+
+					<div class="section">
+						<div class="input-field">
+						    <input id="productPrice" type="number" class="validate" [(ngModel)]="productPrice" placeholder="9999">
+						    <label for="productPrice">Item Price</label>
+						</div>
+					</div>
+
+
+					<div class="section">
+						<div class="input-field">
+						   <select>
+						     <option value="" disabled selected>Select Item Types</option>
+						     <option value="1">Dress</option>
+						     <option value="2">Pants</option>
+						     <option value="3">Shoes</option>
+						   </select>
+						   <label>Item Category</label>
+						 </div>
+					</div>
+
+					<!-- Sizes Section -->
+						<div class="section"> 
+							<label><strong>SIZES</strong></label>
+							<hr>
+							<div class="row">
+								<div class="col m2 s3">
+									<div class="switch">
+									    <label>
+									      Extra Small
+									      <input type="checkbox">
+									      <span class="lever"></span>
+									     
+									    </label>
+									  </div>
+								</div>
+
+								<div class="col m2 s3">
+									<div class="switch">
+									    <label>
+									      Small
+									      <input type="checkbox">
+									      <span class="lever"></span>
+									     
+									    </label>
+									  </div>
+								</div>
+
+								<div class="col m2 s3">
+									<div class="switch">
+									    <label>
+									      Meduim
+									      <input type="checkbox">
+									      <span class="lever"></span>
+									     
+									    </label>
+									  </div>
+								</div>
+
+								<div class="col m2 s3">
+									<div class="switch">
+									    <label>
+									      Large
+									      <input type="checkbox">
+									      <span class="lever"></span>
+									     
+									    </label>
+									  </div>
+								</div>
+
+
+								<div class="col m2 s3">
+									<div class="switch">
+									    <label>
+									      Extra Large
+									      <input type="checkbox">
+									      <span class="lever"></span>
+									    </label>
+									  </div>
+								</div>
+
+
+								<div class="col m2 s3">
+									<div class="switch">
+									    <label>
+									      Fix Size
+									      <input type="checkbox">
+									      <span class="lever"></span>
+									    </label>
+									  </div>
+								</div>
+
+							</div>
+
+						</div>
+
+					<!-- End Sizes Section -->
+
+
+					<!-- Color Section -->
+						<div class="section">
+
+
+							<label><strong>Available Colors</strong></label>
+							<hr>
+
+							<div class="row">
+								<div class="col s4 m4">
+									<p>
+									   	<label>
+									       <input checked class="filled-in checkbox-red" type="checkbox" />
+									       <span class="red-text">Red</span>
+									    </label>
+									</p>
+								</div>
+								<div class="col s4 m4">
+									<p>
+									   	<label>
+									       <input checked class="filled-in checkbox-pink" type="checkbox" />
+									       <span class="pink-text">Pink</span>
+									    </label>
+									</p>
+								</div>
+
+								<div class="col s4 m4">
+									<p>
+									   	<label>
+									       <input checked class="filled-in checkbox-purple" type="checkbox" />
+									       <span class="purple-text">Purple</span>
+									    </label>
+									</p>
+								</div>
+
+								<div class="col s4 m4">
+									<p>
+									   	<label>
+									       <input checked class="filled-in checkbox-deep-purpl" type="checkbox" />
+									       <span class="deep-purple-text">Deep Purple</span>
+									    </label>
+									</p>
+								</div>
+
+								<div class="col s4 m4">
+									<p>
+									   	<label>
+									       <input checked class="filled-in checkbox-indigo" type="checkbox" />
+									       <span class="indigo-text">Indigo</span>
+									    </label>
+									</p>
+								</div>
+
+								<div class="col s4 m4">
+									<p>
+									   	<label>
+									       <input checked class="filled-in checkbox-blue" type="checkbox" />
+									       <span class="blue-text">Blue</span>
+									    </label>
+									</p>
+								</div>
+
+								<div class="col s4 m4">
+									<p>
+									   	<label>
+									       <input checked class="filled-in checkbox-light" type="checkbox" />
+									       <span class="light-blue-text">Light Blue</span>
+									    </label>
+									</p>
+								</div>
+
+								<div class="col s4 m4">
+									<p>
+									   	<label>
+									       <input checked class="filled-in checkbox-cyan" type="checkbox" />
+									       <span class="cyan-text">Cyan</span>
+									    </label>
+									</p>
+								</div>
+
+								<div class="col s4 m4">
+									<p>
+									   	<label>
+									       <input checked class="filled-in checkbox-teal" type="checkbox" />
+									       <span class="teal-text">Teal</span>
+									    </label>
+									</p>
+								</div>
+
+								<div class="col s4 m4">
+									<p>
+									   	<label>
+									       <input checked class="filled-in checkbox-green" type="checkbox" />
+									       <span class="green-text">Green</span>
+									    </label>
+									</p>
+								</div>
+
+								<div class="col s4 m4">
+									<p>
+									   	<label>
+									       <input checked class="filled-in checkbox-light-green" type="checkbox" />
+									       <span class="light-green-text">Light Green</span>
+									    </label>
+									</p>
+								</div>
+
+
+								<div class="col s4 m4">
+									<p>
+									   	<label>
+									       <input checked class="filled-in checkbox-lime" type="checkbox" />
+									       <span class="lime-text">Lime</span>
+									    </label>
+									</p>
+								</div>
+
+
+								<div class="col s4 m4">
+									<p>
+									   	<label>
+									       <input checked class="filled-in checkbox-yellow" type="checkbox" />
+									       <span class="yellow-text">Yellow</span>
+									    </label>
+									</p>
+								</div>
+
+
+
+								<div class="col s4 m4">
+									<p>
+									   	<label>
+									       <input checked class="filled-in checkbox-amber" type="checkbox" />
+									       <span class="amber-text">Amber</span>
+									    </label>
+									</p>
+								</div>
+
+
+
+								<div class="col s4 m4">
+									<p>
+									   	<label>
+									       <input checked class="filled-in checkbox-orange" type="checkbox" />
+									       <span class="orange-text">Orange</span>
+									    </label>
+									</p>
+								</div>
+
+
+
+								<div class="col s4 m4">
+									<p>
+									   	<label>
+									       <input checked class="filled-in checkbox-brown" type="checkbox" />
+									       <span class="brown-text">Brown</span>
+									    </label>
+									</p>
+								</div>
+
+
+								<div class="col s4 m4">
+									<p>
+									   	<label>
+									       <input checked class="filled-in checkbox-blue-grey" type="checkbox" />
+									       <span class="blue-grey-text">Blue Grey</span>
+									    </label>
+									</p>
+								</div>
+
+
+
+								<div class="col s4 m4">
+									<p>
+									   	<label>
+									       <input checked class="filled-in checkbox-black" type="checkbox" />
+									       <span class="black-text">Black</span>
+									    </label>
+									</p>
+								</div>
+
+
+
+								<div class="col s4 m4">
+									<p>
+									   	<label>
+									       <input checked class="filled-in checkbox-white" type="checkbox" />
+									       <span class="#fefefe-text">White</span>
+									    </label>
+									</p>
+								</div>
+
+
+
+							</div>
+						</div>	
+
+					<!-- End Color Section -->
+
+
+					<!-- Tags Section -->
+						<div class="section">
+
+							<label><strong>Product Tags</strong></label>
+							<hr>
+							
+							<div class="chips chips-autocomplete chips-placeholder">
+				   	  			
+				   	  		</div>
+						</div>	
+					<!-- End Tags Section -->
+				</div>
+			<!-- End Left Content -->
+
+
+
+			<!-- // Right Content -->
+				<div class="col s12 l6 m6">
+
+					<!-- // Main Image Upload -->
+						<div class="item_main_image" >
+							<button id="remove_main_images" class="waves-effect waves-dark btn black" (click)="remove_main_img()">REMOVE</button>
+							<img [src]="url" (click)="trigger_img()">
+						</div>
+						<input type="file" ng2FileSelect [uploader]="uploader1" accept="image/*;capture=camera" (change)="preview($event)" style="display: none;" id="main_img_btn">
+					<!-- End Main Image Upload -->
+
+					<hr>
+
+					<!-- Image Addtional Upload	 -->
+						<div class="image_additional_image">
+							<div class="row">
+								<div class="col m9 image_add_holder">
+									<div class="row">
+										<div class="col s3 m3" *ngFor="let thumb of thumb_add_cont">
+											<img class="img_thumb" src="{{thumb}}" >
+										</div>
+									</div>
+										
+								</div>
+
+									<div class="add_additional_img">
+											<input type="file" id="thumb_additional_img" ng2FileSelect [uploader]="uploader2" (change)="thumbnail($event)" style="display: none;">	
+											<button class="btn-floating btn-large waves-effect waves-light red accent-2" (click)="thumbnail_trigger()"><i class="material-icons">add</i></button><br>	
+											<label>Add Image</label>
+									</div>
+								</div>
+
+						</div>
+					<!-- End Image Addtional Upload	 -->		
+				</div>
+			<!-- // End  Right Content -->
+		</div>
+
+
+
+		<button  id="saveProducts" (click)="submit()">SUBMIT</button>
+	</div>
+</div>

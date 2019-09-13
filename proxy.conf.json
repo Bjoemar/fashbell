@@ -1,0 +1,21 @@
+{
+  "/api/*": {
+    "target": "http://localhost:3000",
+    "secure": false,
+    "logLevel": "debug",
+    "changeOrigin": true,
+    "pathRewrite": {
+        "^/api": ""
+    }
+  },
+
+  "/storage/image/*": {
+    "target": "http://res.cloudinary.com/dv5ki1m4h/image/upload/v1566092247/",
+    "secure": false,
+    "logLevel": "debug",
+    "changeOrigin": true,
+    "pathRewrite": {
+        "^/storage/image": ""
+    }
+  }
+}

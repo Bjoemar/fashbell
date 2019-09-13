@@ -1,0 +1,14 @@
+.main-admin {
+	padding-left: 300px;
+	padding-top: 0px;
+}
+
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 992px) {
+	.main-admin {
+		padding-left: 0;
+	}
+} 
